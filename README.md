@@ -1,5 +1,7 @@
 # LocalButtonPress
 
+[![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/pipelines/latest)
+
 ### Download
 
 ##### > WGET method
