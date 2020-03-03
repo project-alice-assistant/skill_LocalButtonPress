@@ -2,7 +2,7 @@
 	"name": "LocalButtonPress",
 	"version": "1.0.69",
 	"icon": "fab fa-battle-net",
-	"category": "undefined",
+	"category": "automation",
 	"author": "mjlill",
 	"maintainers": [
 		"Psycho",
