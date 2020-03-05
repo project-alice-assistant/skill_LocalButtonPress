@@ -2,13 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/pipelines/latest)
 
-### Download
-
-##### > WGET method
-```bash
-wget http://skills.projectalice.ch/LocalButtonPress -O ~/ProjectAlice/system/skillInstallTickets/LocalButtonPress.install
-```
-
 ### Description
 Press an imaginary button on or off
 
