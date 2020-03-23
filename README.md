@@ -2,7 +2,6 @@
 
 [![Continous Integration](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/badges/master/pipeline.svg)](https://gitlab.com/project-alice-assistant/skills/skill_LocalButtonPress/pipelines/latest)
 
-### Description
 Press an imaginary button on or off
 
  The Google AIY hat has 500ma drivers on 4 gpio pins and I use one to turn on a work space light.
@@ -11,14 +10,11 @@ Press an imaginary button on or off
  Edit the python script to assign a different gpio pin
 
 
-- Version: 1.0.70
 - Author: mjlill
 - Maintainers:
   - Psycho
   - maxbachmann
 - Alice minimum Version: 1.0.0-a4
-- Conditions:
+- Languages:
   - en
-- Requirements:
-  - RPi.GPIO
 
