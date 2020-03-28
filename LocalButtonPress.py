@@ -1,5 +1,8 @@
+from typing import Optional
+
 import RPi.GPIO as GPIO
 
+from core.ProjectAliceExceptions import SkillStartingFailed
 from core.base.model.Intent import Intent
 from core.base.model.AliceSkill import AliceSkill
 from core.dialog.model.DialogSession import DialogSession
@@ -11,11 +14,20 @@ class LocalButtonPress(AliceSkill):
 	Author: mjlill
 	Description: Press an imaginary button on or off
 	"""
-
+	
 	def __init__(self):
 		super().__init__()
+		self._gpioPin: Optional[int] = None
 
-		self._gpioPin = self.getConfig('gpioPin')
+
+	def onStart(self):
+		super().onStart()
+
+		gpioPin = self.getConfig('gpioPin')
+		if gpioPin:
+			self._gpioPin = int(gpioPin)
+		else:
+			raise SkillStartingFailed('Failed fetching gpio pin definition')
 
 		GPIO.setmode(GPIO.BCM)
 		GPIO.setwarnings(False)
