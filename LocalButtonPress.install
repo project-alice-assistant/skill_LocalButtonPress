@@ -1,22 +1,22 @@
 {
-	"name": "LocalButtonPress",
-	"version": "1.0.72",
-	"icon": "fab fa-battle-net",
-	"category": "automation",
-	"author": "mjlill",
-	"maintainers": [
-		"Psycho",
-		"maxbachmann"
-	],
-	"desc": "Press an imaginary button on or off",
-	"aliceMinVersion": "1.0.0-a4",
-	"systemRequirements": [],
-	"pipRequirements": [
-		"RPi.GPIO"
-	],
-	"conditions": {
-		"lang": [
-			"en"
-		]
-	}
+    "name": "LocalButtonPress",
+    "version": "1.0.73",
+    "icon": "fab fa-battle-net",
+    "category": "automation",
+    "author": "mjlill",
+    "maintainers": [
+        "Psycho",
+        "maxbachmann"
+    ],
+    "desc": "Press an imaginary button on or off",
+    "aliceMinVersion": "1.0.0-a4",
+    "systemRequirements": [],
+    "pipRequirements": [
+        "RPi.GPIO"
+    ],
+    "conditions": {
+        "lang": [
+            "en"
+        ]
+    }
 }
