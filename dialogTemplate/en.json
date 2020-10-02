@@ -1,12 +1,9 @@
 {
 	"skill": "LocalButtonPress",
-	"icon": "lamp",
-	"description": "Press an imaginary button on or off",
 	"slotTypes": [],
 	"intents": [
 		{
 			"name": "DoButtonOn",
-			"description": "User is asking for a button press on",
 			"enabledByDefault": true,
 			"utterances": [
 				"press the button on",
@@ -24,7 +21,6 @@
 		},
 		{
 			"name": "DoButtonOff",
-			"description": "User is asking for a button press off",
 			"enabledByDefault": true,
 			"utterances": [
 				"press the button off",
