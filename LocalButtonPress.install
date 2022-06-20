@@ -1,7 +1,7 @@
 {
     "name": "LocalButtonPress",
-    "version": "1.0.79",
-    "icon": "fab fa-battle-net",
+    "version": "1.0.80",
+    "icon": "fas fa-user-alien",
     "category": "automation",
     "author": "mjlill",
     "maintainers": [
