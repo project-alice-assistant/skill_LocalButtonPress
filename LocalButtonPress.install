@@ -1,6 +1,6 @@
 {
     "name": "LocalButtonPress",
-    "version": "1.0.80",
+    "version": "1.0.81",
     "icon": "fas fa-user-alien",
     "category": "automation",
     "author": "mjlill",
